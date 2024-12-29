@@ -95,4 +95,15 @@ $(function(){
       AOS.init({
         duration:1000,
       });
+      $('.sliders').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows:true,
+        prevArrow:'<i class="fa-regular fa-circle-left"></i>',
+        nextArrow:'<i class="fa-regular fa-circle-right"></i>',
+      });
+          
     }());
+

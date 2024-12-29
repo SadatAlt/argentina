@@ -189,5 +189,43 @@ a .btn {
 	color: #34495e;
 }
 .typed{
+  color: #D4AF37;
+}
+.slideOne{
+  padding: 250px 0;
+  background: #77BBE6;
+}
+.slideTwo{
+  padding: 250px 0;
+  background: #D4AF37;
+}
+.slideThree{
+  padding: 250px 0;
+  background: #1E005B;
+}
+.slideFour{
+  padding: 250px 0;
+  background: #9C74B4;
+}
+.slideFive{
+  padding: 250px 0;
+  background: #3C1A65;
+}
+.prev{
+  font-size: 30px;
   color: #F2F7A1;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+.next{
+  font-size: 30px;
+  color: #F2F7A1;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 999;
 }
