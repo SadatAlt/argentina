@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class23</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,7 +19,7 @@
     <div class="container">
         <h1 class="heading text-center">Next World Cup Date</h1>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4"  data-aos="flip-left">
                 <div class="timer">
                  <div class="text text-center">
                     <h3>Year</h3>
@@ -30,7 +35,7 @@
                      </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4"  data-aos="flip-right">
                 <div class="timer">
                     <div class="text text-center">
                         <h3>Day</h3>
@@ -62,22 +67,22 @@
 <section id="argentina">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 " data-aos="fade-right">
                 <div class="imagepart">
                     <a href="images/messi.png" data-lightbox="roadtrip"><img src="images/messi.png" alt="messi.png" class="img-fluid"></a>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-up">
                 <div class="imagepart">
                     <a href="images/emi.png" data-lightbox="roadtrip"><img src="images/emi.png" alt="emi.png" class="img-fluid"></a>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-down">
                 <div class="imagepart">
                     <a href="images/Enzo.jpg" data-lightbox="roadtrip"><img src="images/Enzo.jpg" alt="Enzo.png" class="img-fluid"></a>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-up-left">
                 <div class="imagepart">
                     <a href="images/alvarez.png" data-lightbox="roadtrip"><img src="images/alvarez.png" alt="alvarez.png" class="img-fluid"></a>
                 </div>
@@ -87,8 +92,28 @@
 </section>
 <section id="celebration">
     <div class="container">
-        <div class="team">
+        <div class="team"  data-aos="zoom-in">
             <a class="my-image-links"  href="images/team.jpg"><img src="images/team.jpg" class="img-fluid"></a>
+        </div>
+    </div>
+</section>
+<section id="videopart">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 m-auto ">
+                    <div class="play text-center text-white">
+                        <a class="my-video-links" data-autoplay="true" data-vbtype="video" href="https://youtu.be/IGjE_zgs2Hw?si=J4XyOpHV8nukWnIZ">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <h1 class="winningYear">Argentina won World Cup in <span class="typed"></span></h1>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -98,6 +123,8 @@
 <script src="scripts/counterup.min.js"></script>
 <script src="scripts/lightbox.min.js"></script>
 <script src="scripts/venobox.min.js"></script>
+<script src="scripts/typed.min.js"></script>
+<script src="scripts/aos.js"></script>
 <script src="scripts/scripts.js"></script>   
 </body>
 </html>
